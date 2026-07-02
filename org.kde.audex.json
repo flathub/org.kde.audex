@@ -103,8 +103,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/audex-26.04.2.tar.xz",
-                    "sha256": "2739891c16a78f23c610673f90e0f3aeb70a18bf337b01f3dec9ca6e35a4df10",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/audex-26.04.3.tar.xz",
+                    "sha256": "c8edce3dcefa5fb8b0d4b668c5ee2093521a9237fd63ba84cb425a810313933b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 9824,
