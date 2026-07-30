@@ -35,7 +35,7 @@
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 17877,
-                        "url-template": "https://archive.mozilla.org/pub/opus/libopusenc-$version.tar.gz"
+                        "url-template": "https://ftp.osuosl.org/pub/xiph/releases/opus/libopusenc-$version.tar.gz"
                     }
                 }
             ]
