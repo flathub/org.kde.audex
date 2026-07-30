@@ -97,7 +97,7 @@
                     "sha256": "cf1594adca2444aef8fadfc1c19bb9e803cae5f43de44a46871fc6cf48121e21",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 390657,
+                        "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/libkcddb-$version.tar.xz"
                     }
