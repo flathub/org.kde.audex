@@ -170,7 +170,7 @@
                     "sha256": "5badcb62621b2609b5b5786edc7db08731ce342b4feaa9fcfcb4244cb9b34cf3",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 9824,
+                        "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/audex-$version.tar.xz"
                     }
