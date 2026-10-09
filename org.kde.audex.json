@@ -160,6 +160,9 @@
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
+            "license-files": [
+                "LICENSES/GPL-3.0-or-later.txt"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -171,6 +174,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/audex-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-the-license-tag.patch"
                 }
             ]
         }

@@ -1,0 +1,43 @@
+From 8b7ac2135fc05aaf7a909cdf20041ebc90297490 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Fri, 9 Oct 2026 22:24:05 +0300
+Subject: [PATCH] appdata: fix the license tag
+
+The project is licensed under GPL-3.0-or-later,
+but the appdata file and the main.cpp don't reflect that.
+
+Signed-off-by: Sabri Ünal <yakushabb@gmail.com>
+---
+ main.cpp                  | 2 +-
+ org.kde.audex.appdata.xml | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/main.cpp b/main.cpp
+index 65db95f..9fc340e 100644
+--- a/main.cpp
++++ b/main.cpp
+@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
+                          i18n("Audex"),
+                          AUDEX_VERSION_STRING,
+                          i18nc("@info", "Audio ripping application"),
+-                         KAboutLicense::GPL,
++                         KAboutLicense::GPL_V3,
+                          i18n("Copyright © 2007-2025 Marco Nelles"));
+     aboutData.setHomepage("https://apps.kde.org/de/audex/");
+     aboutData.setBugAddress("audex@maniatek.de");
+diff --git a/org.kde.audex.appdata.xml b/org.kde.audex.appdata.xml
+index 071154c..52b6e72 100644
+--- a/org.kde.audex.appdata.xml
++++ b/org.kde.audex.appdata.xml
+@@ -2,7 +2,7 @@
+ <component type="desktop">
+   <id>org.kde.audex</id>
+   <metadata_license>FSFAP</metadata_license>
+-  <project_license>GPL-2.0</project_license>
++  <project_license>GPL-3.0-or-later</project_license>
+   <name>Audex</name>
+   <name xml:lang="ar">أوديكس</name>
+   <name xml:lang="ast">Audex</name>
+--
+libgit2 1.9.7
+
