@@ -166,8 +166,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.08.2/src/audex-26.08.2.tar.xz",
-                    "sha256": "61910209fc38112b00722809bceba34b0f8162106a2028ce2b167fe66e0ebd45",
+                    "url": "https://download.kde.org/stable/release-service/26.08.3/src/audex-26.08.3.tar.xz",
+                    "sha256": "5badcb62621b2609b5b5786edc7db08731ce342b4feaa9fcfcb4244cb9b34cf3",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 9824,
